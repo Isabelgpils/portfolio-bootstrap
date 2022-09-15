@@ -1,36 +1,45 @@
-<%= render "layouts/header" %>
 <div class container-fluid project-container>
-<main class="container project-container">
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://tapestrywebdev.com/css/assets/img/WeatherApp7.png" class="card-img-top" alt="weather app">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://tapestrywebdev.com/css/assets/img/RandomQuotes3.png" class="card-img-top" alt="random quote app">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a short card.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="https://tapestrywebdev.com/css/assets/img/SurveyForm2.png" class="card-img-top" alt="survey form">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-</div>
+  <h1 class= "display-3 text-center">Projects</h1>
+  <h6 class= "display-6 text-center">This is a list of projects I have completed.</h6>
+  <main class="container project-container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://tapestrywebdev.com/css/assets/img/WeatherApp7.png" class="card-img-top" alt="weather app">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Node JS</p>
+            <button type="button" class="btn btn-center btn-primary btn-lg">
+              <%= link_to "View Project", "https://gutierrez-weather-app.herokuapp.com/" %>
+            </button>
 
-<%= render "layouts/footer" %>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://tapestrywebdev.com/css/assets/img/RandomQuotes3.png" class="card-img-top" alt="random quote app">
+          <div class="card-body">
+            <h5 class="card-title">Random Quote Generator</h5>
+            <p class="card-text">Javascript</p>
+                        <button type="button" class="btn btn-center btn-primary btn-lg">
+              <%= link_to "View Project", "https://codepen.io/IsabelGPils/full/xoPXXx" %>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://tapestrywebdev.com/css/assets/img/SurveyForm2.png" class="card-img-top" alt="survey form">
+          <div class="card-body">
+            <h5 class="card-title">Survey Form </h5>
+            <p class="card-text">HTML, CSS</p>
+            <button type="button" class="btn btn-center btn-primary btn-lg">
+              <%= link_to "View Project", "https://codepen.io/IsabelGPils/full/vrgMgb" %>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
