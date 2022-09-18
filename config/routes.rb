@@ -6,5 +6,4 @@ Rails.application.routes.draw do
   root "pages#welcome"
 
   get "/portfolio", to: "pages#portfolio"
-
 end
