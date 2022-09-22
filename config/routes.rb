@@ -7,5 +7,6 @@ Rails.application.routes.draw do
 
   get "/about", to: "pages#about"
   get "/portfolio", to: "pages#portfolio"
+  get "/contact", to: "pages#contact"
 
 end
