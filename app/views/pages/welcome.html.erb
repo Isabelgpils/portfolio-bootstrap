@@ -1,14 +1,22 @@
 <div class= "container-fluid welcome">
-  <main class="p-6 p-md-5 mb-4 rounded">
-    <div class="row">
-      <div class="col-3-md-3 px-0">
-        <h1 class="display-5 fst-italic text-center" >Hi, I'm Isabel. I'm a junior software developer.</h1>
-        <p class="lead my-2 text-center">I have experience building things with JS React and Ruby on Rails.
-        <button type="button" class="btn btn-center btn-primary btn-lg">
-          <%= link_to "View My Work", "/portfolio" %>
-        </button>
-        <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1600"  width= "500px" class="img-thumbnail float-start" alt="ceramic tile"> 
+  <main>
+    <p class= "display-1 text-center p-2 pt-3">Welcome</p>
+    <div class="container ">
+      <div class="row">
+        <div class="col-4">
+          <img class="img-thumbnail" src="https://tapestrywebdev.com/css/assets/img/myAvatar6.svg"  width="390px">
+        </div>
+        <div class="col-6">
+          <p class="display-6">Hi, I'm Isabel. I'm a junior software developer.</p>
+          <%= link_to "View My Work", "/portfolio", class: "btn btn-primary btn-lg mx-300"%>
+        </div>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </main>
 </div>
